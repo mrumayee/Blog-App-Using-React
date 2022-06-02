@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  font-family: "Quicksand";
+}
+
+.Navbar {
+  background-color: rgb(252, 237, 241);
+  padding: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  align-items: center;
+  color: #f1356d;
+}
+
+.heading {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 28px;
+  color: #f1356d;
+  
+}
+
+.Navbar a{
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+
+}
+
+.links {
+  margin-left: auto;
+  display: flex;
+}
+
+.home:hover,
+.create:hover {
+  opacity: 0.5;
+}
+
+.content {
+  max-width: 100%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.blog-preview{
+  padding: 20px;
+  margin:20px;
+  border-bottom:1px 3px 5px rgb(7, 7, 7);
+  width: 500px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.blog-preview a{
+  text-decoration: none;
+}
+.blog-preview:hover{
+  box-shadow: 1px 3px 5px #f1356d;
+  
+}
+
+.blog-preview h2{
+  font-size: 20px;
+  color:#f1356d;
+  margin-bottom: 8px;
+  
+}
+.allblogHeading{
+ margin-left: 40px;
+}
+
+.handleDelete{
+  background-color: #f1356d;
+  border: none;
+  padding: 6px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: white;
+
+}
+
+.handleDelete:hover{
+  opacity: 0.5;
+  color: black;
+}
+
+.loading{
+  align-items: center;
+  font-size: 30px;
+  justify-content: center;
+}
+
+article{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  
+}
+
+
+.blogPageTitle,.blogPageauthor,.blogPagecontent{
+  
+  margin-bottom: 20px;
+}
+
+/* Styling for Create*/
+.createHead{
+  padding:30px;
+  color: #a80b3a;
+}
+.create {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+.create label {
+  text-align: left;
+  display: block;
+  margin-bottom: 10px;
+  color: #a80b3a;
+  font-weight: 700;
+}
+
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 10px 0;
+  border: 1px solid #f1356d;
+  box-sizing:content-box;
+  border-radius: 5px;
+  display: block;
+}
+
+.createButton {
+  background: #f1356d;
+  color: #ffffff;
+  border: 0;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.createButton:hover{
+  
+  opacity: 0.7;
+}
+.create:hover{
+  opacity:1;
+}
+
+/*Delete Button*/
+.deleteButton,.updateButton{
+background-color: #f1356d;
+border-radius: 5px;
+color:white;
+padding: 10px;
+border: none;
+margin-left: 80px;
+}
+
+.block{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  align-items: center;
+ 
+}
+
+.editButton{
+  display: flex;
+  flex-direction: row;
+}
+
+article{
+  padding: 50px;
+}
