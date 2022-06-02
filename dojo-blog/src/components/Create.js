@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
-
+//Adding new comments to check whether git push works well for a particular branch
 
 const Create = () => {
   const [title, setTitle] = useState('');
@@ -8,7 +8,7 @@ const Create = () => {
   const [author, setAuthor] = useState('Mrunmayee');
   const [isPending, setIsPending] = useState(false);
   const history = useHistory();
-
+//fumction to handle the delete button
   const handleSubmit = (e) => {
     e.preventDefault();
     const blog = {title,body,author};
